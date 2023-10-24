@@ -28,18 +28,26 @@ degreeTORadians(45);
 // Problem 3: Create a function calculateFactorial that takes a number and returns its factorial..
 
 function factorials(number){
-    
-
-    for (i = 1; i<=number; i++ ){
-        let factorialNumber =i * i;
-     
+    if (number<0){
+        return "It has no factorial";
     }
+    else if (number === 0 || number === 1){
+        return 1;
+    }
+    else{
+        let factorialNumber = 1;
+        for( i = 2; i <=number; i++){
+            factorialNumber *=i;
 
-    return factorialNumber;
-
-
+        }
+        return factorialNumber;
+    }
+ 
+    
 }
-factorials(36);
+factorials(6);
+
+// ================================================ End =============================================================
 
 // Problem 4: Create a function isPrime that takes a number as a parameter and returns true if it's a prime number, and false otherwise.
 
