@@ -210,12 +210,21 @@ evenOdd(faysal);
 
 1. Explain the difference between 'if...else' and 'switch' statements for conditional logic.
 
+
 2. What is JavaScript, and what is its primary purpose in web development?
+
+Answer : JavaScript is a scripting language. It is used to make dainamic web site, game development and mobile development.
 
 3. Explain the difference between var, let, and const when declaring variables in JavaScript.
 
+Answer : when we decliar a var late we can redecliar, reassain and update. when we decliar "let" we can only update. And when we use "const", we can only assain. 
+
 4. Explain the concept of "scope" in JavaScript and the difference between global and local scope.
 
+Answer : "scope" is two types in javascript. "Global Scope" and " Local Scope". Global Scope is used everywhere in java file. and Local scope is used only in functions.
+
 5. What is the difference between "null" and "undefined" in JavaScript?
+
+Answer : When we declare a var but don't assain a value it is called undefined.like " var name;". When we declare var but assain null like var name = ""; is called null.
 
 */
